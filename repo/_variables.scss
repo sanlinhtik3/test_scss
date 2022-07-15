@@ -1,0 +1,25 @@
+$primary: #dc2626;
+
+$pdf-pink-50: #fdf2f8;
+$pdf-pink-100: #fce7f3;
+$pdf-pink-200: #fbcfe8;
+$pdf-pink-300: #f9a8d4;
+$pdf-pink-400: #f472b6;
+$pdf-pink-500: #ec4899;
+$pdf-pink-600: #db2777;
+$pdf-pink-700: #be185d;
+$pdf-pink-800: #9d174d;
+$pdf-pink-900: #831843;
+
+$roses: (
+    "50": $pdf-pink-50,
+    "100": $pdf-pink-100,
+    "200": $pdf-pink-200,
+    "300": $pdf-pink-300,
+    "400": $pdf-pink-400,
+    "500": $pdf-pink-500,
+    "600": $pdf-pink-600,
+    "700": $pdf-pink-700,
+    "800": $pdf-pink-800,
+    "900": $pdf-pink-900
+) !default;

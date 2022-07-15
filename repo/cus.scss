@@ -1,0 +1,58 @@
+$variable-prefix: july!default;
+
+@import "./variables";
+@import "./border";
+
+// Rose
+@each $size,$rose in $roses {
+    .#{$variable-prefix}-rose-#{$size} {
+        color: #{$rose};
+    }
+}
+
+
+
+$abc: "yes";
+
+@if $abc == "no" {
+    .#{$variable-prefix}-abc {
+        background-color: $pdf-pink-900;
+    }
+} @else {
+    .#{$variable-prefix}-abc {
+        background-color: $pdf-pink-100;
+    }
+}
+
+
+// $sizes: 40px, 50px, 80px;
+
+// @each $size in $sizes {
+//     .p-#{$size} {
+//         padding: #{$size};
+//     }
+// }
+
+.attack {
+    background-color: #333;
+
+    h1 {
+        color: pink;
+    }
+
+    h2 {
+        color: #007bff;
+    }
+
+    p {
+        color: $primary;
+    }
+    
+    button {
+        background-color: #007bff;
+        color: $primary;
+    }
+}
+
+
+
